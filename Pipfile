@@ -9,6 +9,7 @@ numpy = "*"
 seaborn = "*"
 sklearn = "*"
 fuzzy-pandas = "*"
+sweetviz = "*"
 
 [dev-packages]
 
