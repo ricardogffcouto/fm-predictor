@@ -1,7 +1,7 @@
 from datetime import datetime
 
 def apply_mean_attribute_list(df, new_attr, attr_list):
-    df[new_attr] = sum([df[attr] for attr in attr_list]) / len(attr_list)
+    df[new_attr] = sum([df[attr] for attr in attr_list]) / (len(attr_list) * 20)
 
 def approximate_age_2020(d1):
     try:
